@@ -1,0 +1,101 @@
+
+.our-mentors-title {
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 1.12;
+    letter-spacing: -0.04em;
+margin-bottom: 50px;
+}
+
+.our-mentors-title-accent {
+    color: #BEA69E;
+}
+
+.our-mentors-member-list {
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+.our-mentors-member-photo {
+    margin-bottom: 16px;
+    width: 180px;
+    height: 180px;
+}
+
+.our-mentors-member-name {
+    color: #FFF;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 1.14;
+
+}
+
+.our-mentors-member-experience {
+    color: rgba(255, 255, 255, 0.50);
+        text-align: center;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1.28;
+        letter-spacing: -0.02em;
+}
+
+
+
+/* Media */
+
+
+/* Mobile version */
+
+
+@media screen and (min-width:375px) and (max-width: 767.98px) {
+    .container {
+        max-width: 375px;
+        padding: 0 20px;
+    }
+
+    .our-mentors-title {
+            font-size: 28px;
+            line-height: 1.14;
+            letter-spacing: -0.04em;
+    }
+    .our-mentors-member-list {
+        display: flex;
+            flex-direction: column;
+            gap: 40px;
+    }
+
+    .our-mentors-member-name {
+                    font-size: 20px;
+                        font-weight: 500;
+                        line-height: 1.2;
+    }
+    
+    .our-mentors-member-experience {
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 1.28;
+            letter-spacing: -0.02px;
+    }
+}
+
+
+
+/* Tablet version */
+
+
+@media screen and (min-width:768px) and (max-width: 1279.98px) {
+    .container {
+        max-width: 768px;
+        padding: 0 32px;
+    }
+.our-mentors-member-list {
+display: flex;
+flex-wrap: wrap;
+gap: 93px;
+column-gap: 100px;
+}
+}

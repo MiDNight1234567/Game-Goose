@@ -1,0 +1,620 @@
+/* Our Courses */
+
+.our-courses-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 50px;
+  /* margin-top: 150px;
+  margin-bottom: 150px; */
+}
+
+.our-courses-hero {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 410px;
+  padding-bottom: 50px;
+}
+
+.our-courses-title {
+  color: #fff;
+  font-family: DM Sans;
+  font-size: 48px;
+  font-style: normal;
+  line-height: 1.12;
+  letter-spacing: -0.04em;
+}
+
+.our-courses-span {
+  color: #bea69e;
+  font-family: DM Sans;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.12;
+  letter-spacing: -0.04em;
+}
+
+.our-courses-hero-pgf {
+  color: #fff;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+  width: 405px;
+}
+
+.our-courses-list {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.our-courses-benefit {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: 347px;
+  height: 452px;
+  flex-shrink: 0;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: linear-gradient(180deg, #060707 0%, #1d1d1d 100%);
+}
+
+.our-courses-number {
+  display: flex;
+  color: rgba(255, 255, 255, 0.4);
+  font-family: DM Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.28;
+  letter-spacing: -0.02em;
+  justify-content: space-between;
+  padding-left: 32px;
+}
+
+.our-courses-project {
+  color: #fff;
+  font-family: DM Sans;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.14;
+  padding-top: 96px;
+  padding-bottom: 180px;
+  padding-left: 32px;
+  width: 265px;
+}
+
+.our-courses-paragraf {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+  margin-right: 32px;
+  margin-left: 32px;
+  margin-bottom: 32px;
+  text-align: start;
+}
+
+.our-courses-social {
+  display: flex;
+  position: absolute;
+  top: 32px;
+  gap: 237px;
+}
+
+.our-courses-icon-container:hover,
+.our-courses-icon-container:focus {
+  background-color: #bea69e;
+}
+
+.our-courses-icon {
+  fill: #ffffff66;
+}
+
+.our-courses-icon:hover,
+.our-courses-icon:focus {
+  fill: #ffffff;
+}
+
+.our-courses-link:focus + .our-courses-icon-container {
+  display: none;
+}
+
+.our-courses-icon-container {
+  flex-shrink: 0;
+  border-radius: 50%;
+  background-color: #1d1d1d;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Tablet */
+
+@media screen and (min-width: 768px) and (max-width: 1287.98px) {
+  .our-courses-container {
+    max-width: 100%;
+    flex-basis: calc(100% - 20px) / 2;
+  }
+
+  .our-courses-hero {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 58px;
+    padding-bottom: 50px;
+  }
+
+  .our-courses-title {
+    color: #fff;
+    font-family: DM Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.12px;
+    letter-spacing: -0.04em;
+  }
+
+  .our-courses-list {
+    flex-basis: calc(100% - 20px) / 2;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .our-courses-hero-pgf {
+    color: #fff;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.25;
+    letter-spacing: -0.02em;
+    width: 381px;
+  }
+
+  .our-courses-benefit {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    width: 342px;
+    height: 452px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background: linear-gradient(180deg, #060707 0%, #1d1d1d 100%);
+  }
+}
+
+/* Mobile */
+
+@media screen and (min-width: 375px) and (max-width: 767.98px) {
+  .our-courses-title {
+    color: #fff;
+    font-family: DM Sans;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: -0.04em;
+  }
+
+  .our-courses-span {
+    color: #bea69e;
+    font-family: DM Sans;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: -0.04em;
+  }
+
+  .our-courses-hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    padding-bottom: 50px;
+  }
+
+  .our-courses-list {
+    color: #fff;
+    font-family: DM Sans;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: -0.04em;
+    list-style-type: none;
+    display: flex;
+    flex-basis: calc(100% - 20px) / 3;
+    list-style-type: none;
+    flex-direction: column;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .our-courses-hero-pgf {
+    text-align: start;
+    color: #fff;
+    font-family: DM Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.28;
+    letter-spacing: -0.02em;
+    width: 335px;
+  }
+
+  .our-courses-paragraf {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: DM Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.28;
+    letter-spacing: -0.02em;
+  }
+
+  .our-courses-benefit {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    width: 342px;
+    height: 452px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background: linear-gradient(180deg, #060707 0%, #1d1d1d 100%);
+  }
+}
+
+/* Effect text */
+
+/* h2 */
+
+.text-flicker-in-glow {
+  -webkit-animation: text-flicker-in-glow 4s linear both;
+  animation: text-flicker-in-glow 4s linear both;
+}
+
+@-webkit-keyframes text-flicker-in-glow {
+  0% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  10.1% {
+    opacity: 1;
+    text-shadow: none;
+  }
+  10.2% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  20% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  20.1% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.25);
+  }
+  20.6% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  30% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  30.1% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.45),
+      0 0 60px rgba(255, 255, 255, 0.25);
+  }
+  30.5% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.45),
+      0 0 60px rgba(255, 255, 255, 0.25);
+  }
+  30.6% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  45% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  45.1% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.45),
+      0 0 60px rgba(255, 255, 255, 0.25);
+  }
+  50% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.45),
+      0 0 60px rgba(255, 255, 255, 0.25);
+  }
+  55% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.45),
+      0 0 60px rgba(255, 255, 255, 0.25);
+  }
+  55.1% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  57% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  57.1% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.55),
+      0 0 60px rgba(255, 255, 255, 0.35);
+  }
+  60% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.55),
+      0 0 60px rgba(255, 255, 255, 0.35);
+  }
+  60.1% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  65% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  65.1% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.55),
+      0 0 60px rgba(255, 255, 255, 0.35), 0 0 100px rgba(255, 255, 255, 0.1);
+  }
+  75% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.55),
+      0 0 60px rgba(255, 255, 255, 0.35), 0 0 100px rgba(255, 255, 255, 0.1);
+  }
+  75.1% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  77% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  77.1% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.55),
+      0 0 60px rgba(255, 255, 255, 0.4), 0 0 110px rgba(255, 255, 255, 0.2),
+      0 0 100px rgba(255, 255, 255, 0.1);
+  }
+  85% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.55),
+      0 0 60px rgba(255, 255, 255, 0.4), 0 0 110px rgba(255, 255, 255, 0.2),
+      0 0 100px rgba(255, 255, 255, 0.1);
+  }
+  85.1% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  86% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  86.1% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.6),
+      0 0 60px rgba(255, 255, 255, 0.45), 0 0 110px rgba(255, 255, 255, 0.25),
+      0 0 100px rgba(255, 255, 255, 0.1);
+  }
+  100% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.6),
+      0 0 60px rgba(255, 255, 255, 0.45), 0 0 110px rgba(255, 255, 255, 0.25),
+      0 0 100px rgba(255, 255, 255, 0.1);
+  }
+}
+@keyframes text-flicker-in-glow {
+  0% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  10.1% {
+    opacity: 1;
+    text-shadow: none;
+  }
+  10.2% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  20% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  20.1% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.25);
+  }
+  20.6% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  30% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  30.1% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.45),
+      0 0 60px rgba(255, 255, 255, 0.25);
+  }
+  30.5% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.45),
+      0 0 60px rgba(255, 255, 255, 0.25);
+  }
+  30.6% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  45% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  45.1% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.45),
+      0 0 60px rgba(255, 255, 255, 0.25);
+  }
+  50% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.45),
+      0 0 60px rgba(255, 255, 255, 0.25);
+  }
+  55% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.45),
+      0 0 60px rgba(255, 255, 255, 0.25);
+  }
+  55.1% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  57% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  57.1% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.55),
+      0 0 60px rgba(255, 255, 255, 0.35);
+  }
+  60% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.55),
+      0 0 60px rgba(255, 255, 255, 0.35);
+  }
+  60.1% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  65% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  65.1% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.55),
+      0 0 60px rgba(255, 255, 255, 0.35), 0 0 100px rgba(255, 255, 255, 0.1);
+  }
+  75% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.55),
+      0 0 60px rgba(255, 255, 255, 0.35), 0 0 100px rgba(255, 255, 255, 0.1);
+  }
+  75.1% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  77% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  77.1% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.55),
+      0 0 60px rgba(255, 255, 255, 0.4), 0 0 110px rgba(255, 255, 255, 0.2),
+      0 0 100px rgba(255, 255, 255, 0.1);
+  }
+  85% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.55),
+      0 0 60px rgba(255, 255, 255, 0.4), 0 0 110px rgba(255, 255, 255, 0.2),
+      0 0 100px rgba(255, 255, 255, 0.1);
+  }
+  85.1% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  86% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  86.1% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.6),
+      0 0 60px rgba(255, 255, 255, 0.45), 0 0 110px rgba(255, 255, 255, 0.25),
+      0 0 100px rgba(255, 255, 255, 0.1);
+  }
+  100% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.6),
+      0 0 60px rgba(255, 255, 255, 0.45), 0 0 110px rgba(255, 255, 255, 0.25),
+      0 0 100px rgba(255, 255, 255, 0.1);
+  }
+}
+
+/* h3 */
+
+.text-shadow-pop-bottom {
+  -webkit-animation: text-shadow-pop-bottom 0.6s both;
+  animation: text-shadow-pop-bottom 0.6s both;
+}
+
+@-webkit-keyframes text-shadow-pop-bottom {
+  0% {
+    text-shadow: 0 0 #555555, 0 0 #555555, 0 0 #555555, 0 0 #555555, 0 0 #555555,
+      0 0 #555555, 0 0 #555555, 0 0 #555555;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  100% {
+    text-shadow: 0 1px #555555, 0 2px #555555, 0 3px #555555, 0 4px #555555,
+      0 5px #555555, 0 6px #555555, 0 7px #555555, 0 8px #555555;
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+  }
+}
+@keyframes text-shadow-pop-bottom {
+  0% {
+    text-shadow: 0 0 #555555, 0 0 #555555, 0 0 #555555, 0 0 #555555, 0 0 #555555,
+      0 0 #555555, 0 0 #555555, 0 0 #555555;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  100% {
+    text-shadow: 0 1px #555555, 0 2px #555555, 0 3px #555555, 0 4px #555555,
+      0 5px #555555, 0 6px #555555, 0 7px #555555, 0 8px #555555;
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+  }
+}

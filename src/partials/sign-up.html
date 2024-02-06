@@ -1,0 +1,83 @@
+<section class="sign-up section" id="sign-up">
+  <div class="sign-up-container container">
+    <div class="sign-up-form-box">
+      <h2 class="sign-up-title">
+        Sign <span class="sign-up-title-wrap">Up</span>
+      </h2>
+
+      <p class="sign-up-text">
+        Please use the form below to contact us. Enter your name, email, and
+        message and we'll get back to you shortly.
+      </p>
+
+      <form name="sign-up-form">
+        <div class="sign-up-contacts-form">
+          <input
+            class="sign-up-input"
+            type="text"
+            name="user-name"
+            id="user-name"
+            placeholder="Enter your name"
+            pattern=".{2,}"
+          />
+        </div>
+
+        <div class="sign-up-contacts-form">
+          <input
+            class="sign-up-input"
+            type="email"
+            name="user-email"
+            id="user-email"
+            placeholder="Enter your email"
+            pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"
+          />
+        </div>
+
+        <div class="sign-up-contacts-form">
+          <textarea
+            class="sign-up-textarea"
+            name="user-message"
+            id="user-message"
+            placeholder="Message"
+          ></textarea>
+
+          <button class="sign-up-button" type="submit">Send</button>
+
+          <p class="sign-up-privacy-policy">
+            By clicking on “Send” button, you agree to our
+            <a class="sign-up-link" href="">Privacy Policy</a>, and allow
+            Promodo to use this information for marketing purposes.
+          </p>
+        </div>
+      </form>
+    </div>
+    <div class="sign-up-img-box">
+      <div class="sign-up-small-img-wrap">
+        <img
+          class="sign-up-small-img-photo"
+          srcset="
+            ./img/sign-up-img/small-cam.png    1x,
+            ./img/sign-up-img/small-cam@2x.png 2x
+          "
+          src="./img/sign-up-img/small-cam.png"
+          alt="Small camera"
+          width="201"
+          height="211"
+        />
+      </div>
+      <div class="sign-up-big-img-wrap">
+        <img
+          class="sign-up-big-img-photo"
+          srcset="
+          ./img/sign-up-img/video-entry-product 1big-cam.png 1x,
+          ./img/sign-up-img/video-entry-product 1big-cam@2x.png 2x
+        "
+          src="./img/sign-up-img/video-entry-product 1big-cam.png"
+          alt="Big camera"
+          width="254"
+          height="313"
+        />
+      </div>
+    </div>
+  </div>
+</section>

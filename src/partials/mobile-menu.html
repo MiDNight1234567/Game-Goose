@@ -1,0 +1,56 @@
+<!-- Modal -->
+<div class="backdrop is-hidden" data-modal>
+  <div class="header-modal">
+    <button class="header-modal-close" type="button" data-modal-close>
+      <svg class="header-modal-icon" width="32" height="32">
+        <use href="./img/icons.svg#icon-close"></use>
+      </svg>
+    </button>
+    <div class="header-modal-container">
+      <div class="header-modal-container-list">
+        <ul class="header-modal-list">
+          <li>
+            <a class="header-modal-link" id="#about" href="#about">About us</a>
+          </li>
+          <li>
+            <a class="header-modal-link" id="#courses" href="#courses"
+              >Our courses</a
+            >
+          </li>
+          <li>
+            <a class="header-modal-link" id="#mentors" href="#mentors"
+              >Our mentors</a
+            >
+          </li>
+          <li>
+            <a class="header-modal-link" id="#reviews" href="#reviews"
+              >Reviews</a
+            >
+          </li>
+          <li>
+            <a class="header-modal-link" id="#contacts" href="#contacts"
+              >Contacts</a
+            >
+          </li>
+        </ul>
+      </div>
+      <picture>
+        <source
+          media="(min-width: 768px)"
+          srcset="
+            ./img/header-img/cam_tablet.jpg    1x,
+            ./img/header-img/cam_tablet@2x.jpg 2x
+          "
+        />
+        <source
+          media="(min-width: 375px)"
+          srcset="
+            ./img/header-img/cam_mob.jpg    1x,
+            ./img/header-img/cam_mob@2x.jpg 2x
+          "
+        />
+        <img src="./img/header-img/cam_tablet.jpg" alt="camera" width="476" />
+      </picture>
+    </div>
+  </div>
+</div>
